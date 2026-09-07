@@ -1,0 +1,121 @@
+      <header class="ova-screen__head" data-reveal>
+        <div class="ova-screen__eyebrow">Tema {{NUM}}</div>
+        <h1 class="ova-screen__title">Identificación de peligros y grados de peligrosidad en espacios confinados</h1>
+      </header>
+
+      <div data-reveal style="margin-bottom:40px; padding:32px; background:linear-gradient(135deg, color-mix(in srgb, var(--c-acento) 10%, var(--bg-surface)) 0%, var(--bg-surface) 60%); border:1px solid color-mix(in srgb, var(--c-acento) 30%, var(--border-c)); border-radius:var(--r-lg); position:relative; overflow:hidden;">
+        <h3 style="font-family:var(--font-mono); font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--c-acento); margin:0 0 16px; display:flex; align-items:center; gap:10px;"><iconify-icon icon="mdi:comment-question-outline" style="font-size:1.1rem;"></iconify-icon> Situación de partida</h3>
+        <p style="margin:0 0 0; font-size:1.02rem; line-height:1.6;">Un trabajador debe entrar a un silo de granos para revisar una obstrucción. El silo no tiene olor extraño, no hay ningún ruido y la luz que entra por la abertura superior permite ver el fondo con claridad. El supervisor exige que se mida la atmósfera antes de autorizar el ingreso, aunque el trabajador insiste en que “se ve todo normal”. Antes de seguir, piensa: ¿por qué medir algo que parece no tener ningún problema?</p><p style="margin:14px 0 0; font-size:1.02rem; line-height:1.6;">La respuesta es que varios de los peligros más graves de un espacio confinado son invisibles. No tienen color, olor ni sonido: una atmósfera con deficiencia de oxígeno o un gas tóxico incoloro e inodoro pueden estar presentes sin ninguna señal perceptible para una persona. Lo que "se ve normal" no dice nada sobre lo que hay en el aire.</p>
+      </div>
+
+      <!-- ════ Sección {{NUM}} · peligros ════ -->
+      <section class="ova-seccion" id="peligros" data-reveal>
+        <h2 class="ova-seccion__titulo">Qué peligros existen dentro de un espacio confinado</h2>
+        <p class="ova-seccion__lead">Los peligros de un espacio confinado se agrupan, sobre todo, alrededor de la atmósfera que hay adentro.</p>
+      </section>
+
+      <div class="ova-acordeon" data-reveal style="margin-top:0;">
+        <div class="ova-acordeon__item is-open">
+          <button class="ova-acordeon__head"><span><span class="num">01</span> IPVS</span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">El más grave es el que la norma define como atmósfera inmediatamente peligrosa para la vida o la salud (IPVS): una concentración de alguna sustancia tóxica, corrosiva o asfixiante que representa una amenaza inmediata, o que interfiere con la capacidad de la persona para que pueda escapar por sí misma.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">02</span> Mezcla combustible o explosiva</span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Una atmósfera explosiva ocurre cuando gases, vapores o polvos inflamables se mezclan con el aire en concentraciones peligrosas. Si una chispa o fuente de calor enciende esta mezcla, el fuego se propaga de forma rápida y causa una explosión. Se considera peligrosa cuando esa concentración supera el 10 % del límite inferior de inflamabilidad (LEL); no hace falta llegar al límite completo para que la tarea deba detenerse.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">03</span> Otros peligros de alto riesgo</span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Sustancias tóxicas en concentraciones altas que superan la capacidad que un equipo de filtrado puede manejar; energías peligrosas (fuentes eléctricas, neumáticas, mecánicas o hidráulicas activas); materiales atrapantes o sepultantes (elementos como granos o arena suelta) que pueden atrapar a una persona, y (diseño físico) configuraciones internas donde las paredes se estrechan o el piso desciende, lo que puede generar atrapamiento.</div></div>
+        </div>
+      </div>
+      <!-- ════ Sección {{NUM}} · atmosfera ════ -->
+      <section class="ova-seccion" id="atmosfera" data-reveal>
+        <h2 class="ova-seccion__titulo">Por qué se mide la atmósfera antes de entrar: los valores que no debes ignorar</h2>
+        <p class="ova-seccion__lead">El aire que respiramos de forma segura tiene, aproximadamente, 78 % de nitrógeno, 21 % de oxígeno y 1 % de otros gases. La norma fija rangos permitidos para verificar que la atmósfera de un espacio confinado se mantenga dentro de unos valores seguros:</p>
+      </section>
+
+      <div class="ova-tabla" data-reveal style="margin-top:0;"><table><thead><tr><th>Parámetro</th><th>Rango o valor permitido</th></tr></thead><tbody><tr><td>Oxígeno</td><td>Entre 19,5 % y 23,5 %</td></tr><tr><td>Monóxido de carbono</td><td>No debe superar 10 partes por millón.</td></tr><tr><td>Dióxido de carbono</td><td>No debe superar 1.000 partes por millón.</td></tr><tr><td>Hidrocarburos condensados</td><td>No deben superar 5 miligramos por metro cúbico de aire.</td></tr></tbody></table></div>
+      <p data-reveal style="margin-top:24px;">Para quien diseña el programa de gestión existen valores más técnicos, como:</p>
+      <div data-reveal style="margin-top:16px; padding:24px 28px; background:var(--bg-surface); border:1px solid var(--border-c); border-radius:var(--r-md);"><ul style="list-style:none; padding:0; margin:0; display:grid; gap:10px;"><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--c-acento); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span>El TLV: valor límite de umbral.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--c-acento); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span>El TWA: promedio ponderado en una jornada de 8 horas.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--c-acento); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span>El STEL: límite de exposición de corta duración, máximo 15 minutos y hasta 4 veces al día.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--c-acento); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span>El IDLH: concentración inmediatamente peligrosa para la vida o la salud.</span></li></ul></div>
+      <div class="ova-callout" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">Si eres profesional de SST, esos valores son los que debes aplicar y documentar formalmente. Pero si eres quien va a entrar, lo que sí necesitas es confiar en el medidor y no en tus propios sentidos: participar honestamente verificando que el medidor muestre valores dentro de rango, antes de bajar.</p></div>
+      </div>
+      <p data-reveal style="margin-top:24px;">En resumen: la atmósfera se mide siempre antes de entrar y se vuelve a medir si algo cambia durante la tarea como: la aparición de un olor, un ruido diferente o una alarma del medidor.</p>
+      <!-- ════ Sección {{NUM}} · estratificacion ════ -->
+      <section class="ova-seccion" id="estratificacion" data-reveal>
+        <h2 class="ova-seccion__titulo">Por qué el gas no siempre se queda arriba: densidad y estratificación</h2>
+        <p class="ova-seccion__lead">Algunos gases son más pesados que el aire y otros más livianos, por lo que pueden concentrarse en variados niveles dentro de un mismo espacio confinado; a esto se le llama estratificación. El H2S (ácido sulfhídrico), por ejemplo, es más pesado que el aire y tiende a concentrarse en la parte baja de un espacio, mientras que otros gases pueden subir o bajar, según la temperatura.</p>
+      </section>
+
+      <div class="ova-callout" style="margin-top:0;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:lightbulb-on"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Ten en cuenta</span><p style="margin:8px 0 0;">El frío aumenta la densidad de los gases y hace que desciendan, mientras que el calor reduce su densidad y provoca que asciendan.</p></div>
+      </div>
+      <p data-reveal style="margin-top:24px;">Por esta razón, medir solo en la entrada del espacio confinado no es suficiente: la atmósfera puede ser diferente en el fondo, y el medidor debe verificar variados niveles de profundidad, antes de que alguien descienda por completo.</p>
+      <p data-reveal>La ventilación es el control principal frente a este peligro:</p>
+      <div class="ova-vs" data-reveal style="margin-top:16px;">
+        <div class="ova-vs__card"><span class="ova-vs__card-tag" style="background:color-mix(in srgb, var(--c-info) 14%, transparent); color:var(--c-info);">Ventilación natural</span><p style="margin-top:14px;">Paso de aire externo hacia el espacio confinado, sin ningún sistema mecánico.</p></div>
+        <div class="ova-vs__divider">VS</div>
+        <div class="ova-vs__card ova-vs__card--alt"><span class="ova-vs__card-tag" style="background:color-mix(in srgb, var(--c-acento) 14%, transparent); color:var(--c-acento);">Ventilación forzada (mecánica)</span><p style="margin-top:14px;">Utiliza ventiladores para extraer gases contaminantes, diluir partículas y polvo, controlar el calor y proveer aire respirable de forma constante, mientras alguien está adentro.</p></div>
+      </div>
+      <p data-reveal style="margin-top:24px;">Esto conecta directamente con lo que vas a hacer en la inmersión: antes de entrar al espacio confinado (un silo), vas a usar el medidor de gases y presionar el botón que confirma la verificación del aire fresco. Si omites este paso, lo notarás de inmediato en el resultado: después de un minuto trabajando sin haber verificado, el aire dentro del espacio empieza a fallar y la tarea termina en accidente, precisamente porque nadie confirmó que la atmósfera fuera segura antes de bajar.</p>
+      <div class="ova-callout ova-callout--danger" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:close-octagon"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Error frecuente</span><p style="margin:8px 0 0;">Confiar en el olfato o en la vista para descartar un peligro atmosférico, en lugar de usar el medidor, sabiendo que varios gases letales, como el monóxido de carbono, no tienen olor ni color perceptibles.</p></div>
+      </div>
+      <div class="ova-callout" style="margin-top:14px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:clipboard-check-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Criterio de aceptación</span><p style="margin:8px 0 0;">La atmósfera del espacio confinado fue medida con un equipo calibrado antes del ingreso, los valores de oxígeno, monóxido de carbono, dióxido de carbono e hidrocarburos están dentro de los rangos permitidos, y la medición se repite si las condiciones cambian durante la tarea.</p></div>
+      </div>
+      <!-- ════ Sección {{NUM}} · grados ════ -->
+      <section class="ova-seccion" id="grados" data-reveal>
+        <h2 class="ova-seccion__titulo">Grados de peligrosidad: cómo se clasifica un espacio confinado</h2>
+        <p class="ova-seccion__lead">Tras identificar los peligros, el espacio confinado se clasifica según el nivel de riesgo para la vida del trabajador.</p>
+      </section>
+
+      <div class="ova-stepper" data-reveal>
+        <div class="ova-step"><div class="ova-step__num"><span>01</span></div><div class="ova-step__card"><span class="ova-step__tag">Grado 1</span><h3>Grado A</h3><p>Corresponde a espacios que contienen o pueden llegar a contener peligros inminentes para la vida o la salud: cualquiera de los peligros descritos anteriormente, u otros identificados en la valoración de riesgos como de perjuicio elevado.</p></div></div>
+        <div class="ova-step"><div class="ova-step__num"><span>02</span></div><div class="ova-step__card"><span class="ova-step__tag">Grado 2</span><h3>Grado B</h3><p>Corresponde a espacios con peligros potenciales, como lesiones o enfermedades que no comprometen la vida, y que pueden controlarse con medidas de protección, prevención y el uso adecuado de elementos de protección personal.</p></div></div>
+        <div class="ova-step"><div class="ova-step__num"><span>03</span></div><div class="ova-step__card"><span class="ova-step__tag">Grado 3</span><h3>Grado C</h3><p>Corresponde a espacios donde las situaciones de peligro no exigen modificar los procedimientos de trabajo ni usar elementos de protección personal adicionales a los habituales.</p></div></div>
+      </div>
+      <p data-reveal style="margin-top:24px;">Esta clasificación no es una formalidad de papel: determina qué tan estrictos deben ser los controles antes de autorizar el ingreso y debe revisarse cada vez que cambien las condiciones del espacio; por ejemplo, si se introduce una sustancia nueva o si el uso del lugar cambia con el tiempo.</p>
+      <div class="ova-callout" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:head-question-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Dato curioso</span><p style="margin:8px 0 0;">En los espacios confinados mueren más personas por asfixia que por incendios o explosiones. En el análisis de 70 incidentes y 109 muertes investigados por el NIOSH entre 1983 y 1993, cerca del 80 % de los casos estuvo relacionado con una atmósfera peligrosa, principalmente por deficiencia de oxígeno (NIOSH, 1994, publicación DHHS N.º 94-103, "Worker Deaths in Confined Spaces"), precisamente los peligros que resultan imperceptibles sin un medidor calibrado.</p></div>
+      </div>
+      <h3 style="margin:40px 0 16px;" data-reveal>Ampliemos la información:</h3>
+      <figure class="ova-figura" data-reveal style="margin-top:0;">
+        <div class="ova-figura__hero" style="height:auto; padding:24px; background:#fff;">
+          <img src="assets/img/curso/tema2-grados-peligrosidad.png" alt="Grados de peligrosidad en espacios confinados: qué significa cada grado y qué exige" style="max-width:min(640px, 100%); height:auto; display:block; margin:0 auto;" />
+        </div>
+        <figcaption class="ova-figura__caption"><strong>Grados de peligrosidad en espacios confinados</strong></figcaption>
+      </figure>
+      <div class="ova-tabla" data-reveal style="margin-top:24px;"><table><thead><tr><th>Grado</th><th>Qué significa</th><th class="is-highlight">Qué exige</th></tr></thead><tbody><tr><td>Grado A</td><td>Contiene o puede llegar a contener peligros inminentes para la vida o la salud.</td><td>Controles estrictos, permiso de entrada, vigía y plan de rescate probado, antes de ingresar.</td></tr><tr><td>Grado B</td><td>Tiene peligros potenciales que no comprometen la vida, pero pueden causar lesión o enfermedad.</td><td>Medidas de protección, prevención y uso adecuado de elementos de protección personal.</td></tr><tr><td>Grado C</td><td>No presenta peligros que exijan modificar procedimientos o EPP adicionales.</td><td>Mantener las condiciones actuales y revisar de nuevo si algo cambia en el espacio.</td></tr></tbody></table></div>
+      <div class="ova-vs" data-reveal style="margin-top:32px;">
+        <div class="ova-vs__card"><span class="ova-vs__card-tag" style="background:color-mix(in srgb, var(--success) 14%, transparent); color:var(--success);">Ejemplo contextualizado</span><p style="margin-top:14px;">Equipo que, antes de cualquier ingreso, mide la atmósfera con un detector calibrado en más de un nivel de profundidad y deja registrado el resultado en el permiso de entrada, sin importar si el espacio “se ve” seguro.</p></div>
+        <div class="ova-vs__divider">VS</div>
+        <div class="ova-vs__card ova-vs__card--alt"><span class="ova-vs__card-tag" style="background:color-mix(in srgb, var(--danger) 14%, transparent); color:var(--danger);">Contraejemplo</span><p style="margin-top:14px;">Equipo que asume que un espacio es seguro porque no percibe ningún olor extraño, y entra sin medir la atmósfera porque “ya han entrado antes sin problema”.</p></div>
+      </div>
+      <div class="ova-callout" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:account-search-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Mirada experta</span><p style="margin:8px 0 0;">Un evaluador experimentado no decide el grado de peligrosidad de un espacio confinado desde un escritorio, ni por lo que otros le cuentan: va al sitio, revisa la configuración del espacio y considera qué sustancias podrían estar presentes, según su uso anterior, antes de opinar. Frente a un espacio que parece tranquilo, su primera pregunta nunca es “qué tan probable es que haya un problema”, sino “qué necesito medir antes de confiar en que no lo hay”.</p><p style="margin:8px 0 0;">Ejemplo de cómo piensa un experto: al evaluar el ingreso a una cisterna que llevaba meses cerrada, en lugar de asumir que el aire adentro es igual al de afuera, mide primero en la boca de entrada y luego, con una sonda, a variadas profundidades, porque sabe que un espacio cerrado por mucho tiempo puede haber consumido su oxígeno de forma gradual sin ninguna señal visible desde arriba.</p></div>
+      </div>
+      <div class="ova-callout" style="margin-top:14px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">Cuando la atmósfera de un espacio confinado no ha sido medida, no importa qué tan seguro se observe: se trata como Grado A hasta que la medición demuestre lo contrario.</p></div>
+      </div>
+      <div data-reveal style="margin-top:24px; display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+        <div style="padding:28px; background:linear-gradient(135deg, color-mix(in srgb, var(--success) 8%, var(--bg-surface)) 0%, var(--bg-surface) 100%); border:1px solid color-mix(in srgb, var(--success) 35%, var(--border-c)); border-radius:var(--r-md);">
+          <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;"><div style="width:36px; height:36px; border-radius:10px; background:var(--success); color:white; display:grid; place-items:center;"><iconify-icon icon="mdi:check-bold" style="font-size:1.2rem;"></iconify-icon></div><h3 style="margin:0; font-size:1.2rem; color:var(--success);">Buena práctica</h3></div>
+          <p style="margin:0;">Medir la atmósfera en más de un punto de profundidad antes de un ingreso, y repetir la medición si la tarea se detiene y se retoma después de un tiempo.</p>
+        </div>
+        <div style="padding:28px; background:linear-gradient(135deg, color-mix(in srgb, var(--danger) 8%, var(--bg-surface)) 0%, var(--bg-surface) 100%); border:1px solid color-mix(in srgb, var(--danger) 30%, var(--border-c)); border-radius:var(--r-md);">
+          <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;"><div style="width:36px; height:36px; border-radius:10px; background:var(--danger); color:white; display:grid; place-items:center;"><iconify-icon icon="mdi:close-thick" style="font-size:1.2rem;"></iconify-icon></div><h3 style="margin:0; font-size:1.2rem; color:var(--danger);">Mala práctica</h3></div>
+          <p style="margin:0;">Medir la atmósfera solo en la boca de entrada del espacio confinado y asumir que el resultado aplica igual para todo el fondo, sin considerar la estratificación de los gases.</p>
+        </div>
+      </div>
+      <div class="ova-callout ova-callout--success" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:pencil-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Ponte a prueba</span><p style="margin:8px 0 0;">Piensa, con el caso del silo de granos, qué peligros identificarías y qué medición harías antes de autorizar el ingreso, aunque el lugar se vea tranquilo. No necesitas escribir ni entregar tu respuesta: esta reflexión te prepara para la verificación del aire que vas a practicar en la inmersión.</p></div>
+      </div>
